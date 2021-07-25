@@ -1,1 +1,2 @@
-3 Coming soon
+npm install -g gatsby-cli
+gatsby new (name)
