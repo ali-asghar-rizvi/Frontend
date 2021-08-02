@@ -182,62 +182,11 @@
 
 
 
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from '../components/common/layout'
-const ComponentName = ({ data: { blogs } }) => {
-  return (
-    <Layout>
-  
-      <section className="blogs">
-               <div className="container">
-                  <div className="row">   
-        {
-          blogs.nodes.map((blog) => {
-            return (
-              
-                       <div className="col-md-4"  key={blog.id}> 
-                        <article className="blog-content" >
-        
-                <h2>{blog.title}</h2>
-                {/* <p>{blog.info.info}</p> */}
-                <img src={blog.image.fluid.src} alt={blog.title} width={200} height={200} />
 
 
 
-              </article>
-              </div>
-            )
-          })
-        }
-        </div>
-        </div>
-      </section>
-    </Layout>
-  )
-}
 
-export const query = graphql`
-  {
-   blogs: allContentfulBlogs {
-      nodes {
-        title
-        info {
-          info
-        }
-        image {
-          fluid {
-            src
-          }
-        }
-        id
-      }
-      totalCount
-    }
-  }
-`
 
-export default ComponentName
 
 
 
@@ -295,13 +244,7 @@ export default ComponentName
 
 
 
-
-
-
-
-
-
- // import React from 'react'
+// import React from 'react'
 // import Layout from '../components/common/layout'
 
 // const blog = () => {
@@ -374,14 +317,14 @@ export default ComponentName
 // import Layout from "../components/common/layout"
 
 // const ComponentName = ({ data :blogs}) => {
-//   return(
+  //   return(
 //     <Layout>
 //       <section>
 //         {
 //           blogs.nodes.map((blog) => {
-//             console.log(blog)
-//             return (
-//               <article key={blog.id}>
+  //             console.log(blog)
+  //             return (
+    //               <article key={blog.id}>
 //                 <h2>{blog.title}</h2>
 //                 <img src={blog.image.fluid.src} alt={blog.title} width={200} height={200}/>
 //                 {/* <h6>{{blog.info.info}}</h6> */}
@@ -397,12 +340,12 @@ export default ComponentName
 
 // export const query = graphql`
 //   {
-//    blogs: allContentfulBlogs {
+  //    blogs: allContentfulBlogs {
 //       nodes {
 //         title
 //         info {
-//           info
-//         }
+  //           info
+  //         }
 //         image {
 //           fluid {
 //             src
@@ -426,3 +369,128 @@ export default ComponentName
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react"
+// import { graphql } from "gatsby"
+// import Layout from '../components/common/layout'
+// const Blogs = ({ data: { blogs } }) => {
+//   return (
+//     <Layout>
+  
+//       <section className="blogs">
+//                <div className="container">
+//                   <div className="row">   
+//         {
+//           blogs.nodes.map((blog) => {
+//             return (
+              
+//               <div className="col-md-4"  key={blog.id}> 
+//               <div className="blog-content" >
+//                 <h2>{blog.title}</h2>
+//                 {/* <p>{blog.info.info}</p> */}
+//                 <img src={blog.image.fluid.src} alt={blog.title} width={250} height={200} />
+//               </div>
+//               </div>
+//             )
+//           })
+//         }
+//         </div>
+//         </div>
+//       </section>
+//     </Layout>
+//   )
+// }
+
+// export const query = graphql`
+//   {
+//    blogs: allContentfulBlogs {
+//       nodes {
+//         title
+//         info {
+//           info
+//         }
+//         image {
+//           fluid {
+//             src
+//           }
+//         }
+//         id
+//       }
+//       totalCount
+//     }
+//   }
+// `
+
+// export default Blogs
+
+
+
+
+
+
+import React from "react"
+import { graphql } from "gatsby"
+
+const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
+
+export const query = graphql`
+  {
+    allContentfulBlogs {
+      nodes {
+        id
+        slug
+        title
+        info {
+          info
+        }
+        image {
+          fluid {
+            src
+          }
+        }
+      }
+    }
+  }
+`
+
+export default ComponentName
