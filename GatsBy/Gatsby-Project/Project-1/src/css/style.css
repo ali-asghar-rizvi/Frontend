@@ -114,8 +114,9 @@ footer{
     padding: 50px 0 100px;
 }
 .blog-content {
-    background: #0221440d;
-    margin: 2rem 0;
+    background: #abc9ea;
+    margin: 2rem 1rem;
+    padding: 1rem 3rem;
 }
 .blogs h1{
     font-size: 42px;
