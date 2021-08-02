@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "./header";
-import Footer from "./Footer";
+import Footer from "./footer";
 import { Fragment } from "react";
 import '../../css/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
