@@ -417,7 +417,7 @@
 
 
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql,Link } from "gatsby"
 import Layout from '../components/common/layout'
 const Blogs = ({ data: { blogs } }) => {
   return (
@@ -431,6 +431,7 @@ const Blogs = ({ data: { blogs } }) => {
                 <div className="blog-content" >
                   <h2>{blog.title}</h2>
                   <img src={blog.image.fluid.src} alt={blog.title} width={250} height={200} />
+                  <Link to={`/blog/${blog.slug}`}>More Info</Link>
                 </div>
               </div>
             )
@@ -456,6 +457,7 @@ export const query = graphql`
             src
           }
         }
+        slug
         id
       }
       totalCount
