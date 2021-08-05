@@ -176,3 +176,18 @@ footer{
 }
 
 /* about section close */
+
+
+
+/* Home PAge Banner Start  */
+
+
+.Home-Banner{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.Home-Banner h1,
+.Home-Banner h2{
+padding: 20px 0;
+}
