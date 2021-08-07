@@ -317,14 +317,14 @@
 // import Layout from "../components/common/layout"
 
 // const ComponentName = ({ data :blogs}) => {
-  //   return(
+//   return(
 //     <Layout>
 //       <section>
 //         {
 //           blogs.nodes.map((blog) => {
-  //             console.log(blog)
-  //             return (
-    //               <article key={blog.id}>
+//             console.log(blog)
+//             return (
+//               <article key={blog.id}>
 //                 <h2>{blog.title}</h2>
 //                 <img src={blog.image.fluid.src} alt={blog.title} width={200} height={200}/>
 //                 {/* <h6>{{blog.info.info}}</h6> */}
@@ -340,12 +340,12 @@
 
 // export const query = graphql`
 //   {
-  //    blogs: allContentfulBlogs {
+//    blogs: allContentfulBlogs {
 //       nodes {
 //         title
 //         info {
-  //           info
-  //         }
+//           info
+//         }
 //         image {
 //           fluid {
 //             src
@@ -417,27 +417,28 @@
 
 
 import React from "react"
-import { graphql,Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from '../components/common/layout'
 const Blogs = ({ data: { blogs } }) => {
   return (
     <Layout>
       <section className="blogs">
-          <div className="container">
-            <div className="row">   
-        {blogs.nodes.map((blog) => {
-            return (
-              <div className="col-md-4"  key={blog.id}> 
-                <div className="blog-content" >
+        <div className="container">
+          <div className="row">
+            {blogs.nodes.map((blog) => {
+              return (
+                <div className="col-md-4" key={blog.id}>
+                  <div className="blog-content" >
                   <h2>{blog.title}</h2>
-                  <img src={blog.image.fluid.src} alt={blog.title} width={250} height={200} />
-                  <Link to={`/blog/${blog.slug}`}>More Info</Link>
+                    <img src={blog.image.fluid.src} alt={blog.title} className="img-fluid" />
+
+                    <Link className="read-more-btn" to={`/blog/${blog.slug}`}>Read Me </Link>
+                  </div>
                 </div>
-              </div>
-            )
-          })
-        }
-           </div>
+              )
+            })
+            }
+          </div>
         </div>
       </section>
     </Layout>
@@ -466,7 +467,5 @@ export const query = graphql`
 `
 
 export default Blogs
-
-
 
 
