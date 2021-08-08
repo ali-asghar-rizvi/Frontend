@@ -2,7 +2,6 @@ import React from 'react'
 import {Link}  from 'gatsby'
 import { FiPhone} from "react-icons/fi";
 import { FaEnvelope} from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa";
 
 
 
@@ -15,23 +14,24 @@ const Footer = () => {
                         <div className="footer-content">
                             <h2>QUICK LINKS</h2>
                             <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/product">Product</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
-                                <li><Link to="/about">About</Link></li>
-                                <li><Link to="/overview">Overview</Link></li>
-                                <li><Link to="/contact">Contact</Link></li>
+                                <li><Link to="/" >Home</Link></li>                   
+                                <li><Link to="/about" >About</Link></li>
+                                <li><Link to="/service" >Service</Link></li>
+                                <li><Link to="/blog" >Blog</Link></li>
+                                <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="footer-content">
-                            <h2>SUPPORT</h2>
+                        <h2>SERVICES</h2>
                             <ul>
-                                <li>Email</li>
-                                <li>Privacy Policy</li>
-                                <li>FDA Disclaimer</li>
-                                <li>FAQ</li>
+                                <li>Mockups</li>
+                                <li>Psd to Html</li>
+                                <li>Animation Website</li>
+                                <li>Landing Page</li>
+                                <li>Mobile Responsive Page</li>
+   
                             </ul>
                         </div>
                     </div>
@@ -39,10 +39,10 @@ const Footer = () => {
                         <div className="footer-content">
                             <h2>SERVICES</h2>
                             <ul>
-                                <li>Design</li>
-                                <li>Development</li>
-                                <li>Testing</li>
-                                <li>Deployment</li>
+                                <li>Psd to React</li>
+                                <li>Content Management</li>
+                                <li>Gatsby Site</li>
+                                <li>Complete Dynamic Website</li>
                             </ul>
                         </div>
                     </div>
@@ -56,14 +56,13 @@ const Footer = () => {
                             <ul>
                                 <li><span><FiPhone /></span> +92 300 926-9560</li>
                                 <li><span><FaEnvelope /></span> ahsan_wins@outlook.com</li>
-                                <li><span><FaLocationArrow /></span> Main Tariq Road S.M.S </li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="col-lg-12">
                         <div className="copyright">
-                            <h6>© 2021 BestBuy Speciality Inc. All rights reserved</h6>
+                            <h6>© 2021 AhsanShaikh. All rights reserved</h6>
                         </div>
                     </div>
                     
