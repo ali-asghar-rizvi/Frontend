@@ -47,3 +47,6 @@
 	
 ##### 11) For Delete Any Package in Project
 	npm uninstall -g <name> --save
+	
+##### 12) React Slider
+        https://react-slick.neostack.com/docs/get-started
