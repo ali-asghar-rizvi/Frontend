@@ -17,12 +17,13 @@ const Navbar = () => {
                     </div>
                     <div className="col-md-9">
                         <ul className="Website-Navbar">
-                            <li><Link to="/" activeClassName="active-page">Home</Link></li>
-                            <li><Link to="/about" activeClassName="active-page">About us</Link></li>
+                            <li><Link to="/" activeClassName="active-page">Home</Link></li>                   
+                            <li><Link to="/about" activeClassName="active-page">About</Link></li>
+                            <li><Link to="/portfolio" activeClassName="active-page">Portfolio</Link></li>
+                            <li><Link to="/skill" activeClassName="active-page">Skills</Link></li>
+                            <li><Link to="/service" activeClassName="active-page">Service</Link></li>
                             <li><Link to="/blog" activeClassName="active-page">Blog</Link></li>
-                            <li><Link to="/product" activeClassName="active-page">Products</Link></li>
-                            <li><Link to="/overview" activeClassName="active-page">Overview</Link></li>
-                            <li><Link to="/contact" activeClassName="active-page">Contact us</Link></li>
+                            <li><Link to="/contact" activeClassName="active-page">Contact</Link></li>
                         </ul>
                     </div>
                 </div>
