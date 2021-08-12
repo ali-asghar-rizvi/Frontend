@@ -50,3 +50,6 @@
 	
 ##### 12) React Slider
 	https://react-slick.neostack.com/docs/get-started
+	
+##### 13) React Helmet
+	npm install --save react-helmet
