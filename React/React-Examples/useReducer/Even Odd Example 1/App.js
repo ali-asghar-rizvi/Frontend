@@ -6,8 +6,8 @@ function App() {
   const [state, dispatch] = useReducer(Reducer, { count: 1, oddEven: "Odd" });        // Or Intial State //
   return (
     <div>
-      <h2> {state.count} </h2>
-      <h2> {state.oddEven} </h2>
+      <h1> {state.count} </h1>
+      <h1> {state.oddEven} </h1>
       <button onClick={() => dispatch({ type: "check" })}> Check Count </button>
     </div>
   )
