@@ -4,12 +4,6 @@
  
 #### { rcc } For Creating Class Components 
 #### { rfc } For Creating Functional Components
+#### { rafce } For Creating Arrow Function 
 
-#
-#
-#
-#
 
-# Short Cut For Import Components
-
-#### Ctrl + Space
