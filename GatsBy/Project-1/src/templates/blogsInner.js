@@ -12,10 +12,11 @@ const blogTemplates = ({ pageContext: { data } }) => {
                             <h2>{data.title}</h2>
                             <img src={data.image.fluid.src} alt={data.title} />
                             <p>{data.info.info}</p>
+                            <p>{data.shortInfo}</p>
                             <p>{data.info.info}</p>
                             <p>{data.info.info}</p>
                             <div className="back-to-home">
-                             <Link to="/blog">Back To Blog</Link>
+                             <Link to="/blog">Go Back</Link>
                             </div>
                         </div>
                     </div>
