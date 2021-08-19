@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions }) => {
         blogs: allContentfulBlogs {
         nodes {
           slug
+          shortInfo
           info{
               info
           }
