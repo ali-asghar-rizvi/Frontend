@@ -12,9 +12,9 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-3">
                         <div className="footer-content">
-                            <h2>QUICK LINKS</h2>
+                            <h2>INFO</h2>
                             <ul>
-                                <li><Link to="/" >Home</Link></li>                   
+                                {/* <li><Link to="/" >Home</Link></li>                    */}
                                 <li><Link to="/about" >About</Link></li>
                                 <li><Link to="/service" >Service</Link></li>
                                 <li><Link to="/blog" >Blog</Link></li>
@@ -24,25 +24,26 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="footer-content">
-                        <h2>SERVICES</h2>
+                        <h2>EXPLORE</h2>
                             <ul>
                                 <li>Mockups</li>
                                 <li>Psd to Html</li>
                                 <li>Animation Website</li>
                                 <li>Landing Page</li>
-                                <li>Mobile Responsive Page</li>
+                                <li>Mobile Responsive</li>
    
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="footer-content">
-                            <h2>SERVICES</h2>
+                            <h2>EXPLORE</h2>
                             <ul>
                                 <li>Psd to React</li>
                                 <li>Content Management</li>
                                 <li>Gatsby Site</li>
                                 <li>Complete Dynamic Website</li>
+                                <li>Next.js Development</li>
                             </ul>
                         </div>
                     </div>
@@ -52,10 +53,10 @@ const Footer = () => {
 
                     <div className="col-lg-3">
                         <div className="footer-content">
-                            <h2>Get In Touch</h2>
+                            <h2>HAVE A QUESTIONS?</h2>
                             <ul>
-                                <li><span><FiPhone /></span> +92 300 926-9560</li>
-                                <li><span><FaEnvelope /></span> ahsan_wins@outlook.com</li>
+                                <li><a href="tel:0300-9269560"> <span><FiPhone /></span> +92 300 926-9560 </a></li>
+                                <li><a href="mailto:ahsan_wins@outlook.com"> <span><FaEnvelope /></span> ahsan_wins@outlook.com </a></li>
                             </ul>
                         </div>
                     </div>
