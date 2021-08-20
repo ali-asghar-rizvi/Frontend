@@ -1,66 +1,36 @@
 # React Helmet
-<br />
-<br />
-
-
-
-
 # React Router Dom
+# React Icons
+# React Bootstrap
+# React Owlcarousel
+# react-scroll-parallax
+# aos.js
+<br />
+<br />
 
-<br />
-<br />
+
+# .filter 
+# .map
 # Props
 
 
 <br />
 <br />
-# useState
-# useEffect
-# useContext
-# useReducer
-# useCallback
-# useMemo
-# useRef
+
+
+# React Hooks
+<hr />
+### useState
+### useEffect
+### useContext
+### useReducer
+### useCallback
+### useMemo
+### useRef
 
 <br />
 <br />
 
-
-
-# .filter 
-# .map
-
-
-
-
-
-
-
-
-<br />
-<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# For Best Experience
-### react-scroll-parallax
-### aos.js 
 
 
 
