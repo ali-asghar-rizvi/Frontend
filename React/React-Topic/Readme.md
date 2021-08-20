@@ -5,8 +5,8 @@
 ### React Icons
 ### React Bootstrap
 ### React Owlcarousel
-### react-scroll-parallax
-### aos.js
+### react Scroll Parallax
+### Aos.js
 <br />
 <br />
 
