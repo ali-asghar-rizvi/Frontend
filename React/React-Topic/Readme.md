@@ -2,10 +2,11 @@
 ### React Helmet
 ### Raect Redux
 ### React Router Dom
+### React Prop-Types
 ### React Icons
 ### React Bootstrap
 ### React Owlcarousel
-### react Scroll Parallax
+### React Scroll Parallax
 ### AOS
 <br />
 <br />
