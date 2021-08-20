@@ -12,6 +12,37 @@
 <br />
 
 
+
+# .filter 
+# .map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # For Best Experience
 ### react-scroll-parallax
 ### aos.js 
