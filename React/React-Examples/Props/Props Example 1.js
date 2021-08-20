@@ -1,6 +1,6 @@
-import React from 'react'
+import React,{Component} from 'react'
 
-class MyComponent extends React.Component {
+class MyComponent extends Component {
   render () {
     const cityArray = this.props.cityArray
 
