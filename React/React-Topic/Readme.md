@@ -6,7 +6,7 @@
 ### React Bootstrap
 ### React Owlcarousel
 ### react Scroll Parallax
-### Aos.js
+### AOS
 <br />
 <br />
 
