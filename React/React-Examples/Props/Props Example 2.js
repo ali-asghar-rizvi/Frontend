@@ -1,7 +1,7 @@
 import React from 'react'
 
 function MyComponent(props) {
-    const shortListedCities = props.cityArray.filter(city => city.length > 6)
+    const shortListedCities = props.cityArray.filter(city => city.length => 6)
     
     return (
       <ul>
