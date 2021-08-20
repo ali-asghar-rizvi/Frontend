@@ -1,10 +1,12 @@
-# React Helmet
-# React Router Dom
-# React Icons
-# React Bootstrap
-# React Owlcarousel
-# react-scroll-parallax
-# aos.js
+# React Libraries
+### React Helmet
+### Raect Redux
+### React Router Dom
+### React Icons
+### React Bootstrap
+### React Owlcarousel
+### react-scroll-parallax
+### aos.js
 <br />
 <br />
 
@@ -19,7 +21,6 @@
 
 
 # React Hooks
-<hr />
 ### useState
 ### useEffect
 ### useContext
