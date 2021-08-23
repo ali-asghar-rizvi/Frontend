@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="footer-content">
-                        <h2>EXPLORE</h2>
+                        <h2>SERVICES OFFER</h2>
                             <ul>
                                 <li>Mockups</li>
                                 <li>Psd to Html</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="footer-content">
-                            <h2>EXPLORE</h2>
+                            <h2>SERVICES OFFER</h2>
                             <ul>
                                 <li>Psd to React</li>
                                 <li>Content Management</li>
