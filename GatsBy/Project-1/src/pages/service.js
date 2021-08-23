@@ -1,43 +1,104 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from 'react'
+import { DiAndroid,DiJira } from "react-icons/di";
+import { IoCodeSlash } from "react-icons/io5";
+import { RiToolsFill } from "react-icons/ri";
+import { SiCodio } from "react-icons/si";
+
+import { CgListTree } from "react-icons/cg";
+
 import Layout from '../components/common/layout'
 
 
+const Services = () => {
 
-export default class Services extends Component {
-    render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 1
-        };
-        return (
-            <Layout>
-                <div>
-                    <h2> Single Item</h2>
-                    <Slider {...settings}>
-                        <div>
-                            <h3>1</h3>
+    return (
+        <Layout>
+            <section className="Service-Section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="service-content">
+                                <h6>Welcome </h6>
+                                <h1>" We Provide the Perfect Solution</h1>
+                            </div>
                         </div>
-                        <div>
-                            <h3>2</h3>
-                        </div>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                        <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
-                        </div>
-                    </Slider>
+                    </div>
                 </div>
-            </Layout>
-        )
-        }}
+            </section>
+
+            <section className="service-section-cart">
+                 <div className="container">
+                    <div className="row">
+                            <div className="col-md-6">
+                                    <h2>WE SHAPE THE PERFECT SOLUTIONS</h2>
+                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+                                    It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                             </div>   
+
+
+                             <div className="col-md-3">
+                                <div className="service-card ">
+                                    <span> <DiJira /></span>
+                                    <h4>GRAPHIC <br /> DESIGN</h4>
+                                </div>
+                             </div>  
+
+                             <div className="col-md-3">
+                                <div className="service-card">
+
+
+                                <span> <CgListTree /></span>
+
+
+
+                                 <h4>UX/UI  <br /> DESIGN</h4>
+                                   
+                                </div>
+                             </div>    
+
+                             <div className="col-md-3">
+                                <div className="service-card">
+                                <span> <IoCodeSlash /></span>
+                                 <h4>WEB <br /> DEVELOPMENT</h4>
+                                </div>
+                             </div>  
+
+                             <div className="col-md-3">
+                                <div className="service-card">
+
+                                <span> <RiToolsFill /></span>
+                               
+                                    <h4>Video <br />  Editing</h4>
+                                </div>
+                             </div>    
+
+
+                             <div className="col-md-3">
+                                <div className="service-card">
+                                    <span><DiAndroid /></span>
+                                    <h4>Application <br /> DEVELOPMENT</h4>
+                                </div>
+                             </div>  
+
+                             <div className="col-md-3">
+                                <div className="service-card">
+                                
+                                        <span><SiCodio /></span>
+                                        <h4>Content <br /> Management</h4>
+                                
+                                </div>
+                             </div>    
+
+
+
+        
+
+                
+                    </div>
+                </div>
+            </section>
+        </Layout>
+    )
+}
+
+export default Services
