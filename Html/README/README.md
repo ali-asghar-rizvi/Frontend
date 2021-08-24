@@ -13,10 +13,8 @@
     https://www.10bestdesign.com/dirtymarkup/
 
 ### Refrence Website
-    https://www.webzvio.com/
     https://www.vertex.com/
     https://webexpertllc.com/
-    https://www.hexawebstudio.com/
     https://www.paragonlogo.com/
 
 ### Best Code Formatter
