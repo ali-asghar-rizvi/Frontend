@@ -1,0 +1,128 @@
+<!-- simple get data in li from array  -->
+
+    <div id="shopping-main">
+        <h1>{{header}}</h1>
+        <ul>
+            <li v-for="item in items">{{item}}</li>
+        </ul>
+    </div>
+
+    <script>
+        let shopingVar = Vue.createApp({
+            data() {
+                return {
+                    header: "Hello Vue new Create App",
+                    items:[
+                        'adrak',
+                        'lassan',
+                        'lembo',
+                        'mirchi'
+                    ]
+                }
+            }
+        })
+            .mount('#shopping-main');
+    </script>
+
+
+
+
+
+
+
+
+
+
+<!-- get data in li from array with id and label  -->
+
+    <div id="shopping-main">
+        <h1>{{header}}</h1>
+        <ul>
+            <li v-for="item in items" :key="item.id">{{item.label}}</li>
+        </ul>
+    </div>
+
+    <script>
+        let shopingVar = Vue.createApp({
+            data() {
+                return {
+                    header: "Hello Vue new Create App",
+                    items: [
+                        { id: 1, label: 'adrak2' },
+                        { id: 2, label: 'lasson3' },
+                        { id: 3, label: 'lemboo4' },
+                        { id: 4, label: 'mirchi5' },
+                    ]
+                }
+            }
+        })
+            .mount('#shopping-main');
+    </script>
+
+
+
+
+
+
+
+
+
+<!-- get data in li from array with id and label  and also index -->
+
+
+
+        <ul>
+            <li v-for="(item,index) in items" :key="item.id">{{index}} {{item.label}}</li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- get data in li from object with id and label  and also key -->
+
+
+    <div id="shopping-main">
+        <h1>{{header}}</h1>
+        <ul>
+            <li v-for="(item,key) in items" :key="item.id">{{key}} {{item.label}}</li>
+        </ul>
+    </div>
+
+    <script>
+        let shopingVar = Vue.createApp({
+            data() {
+                return {
+                    header: "Hello Vue new Create App",
+                    items: {
+                       'obj-1':  { id: 1, label: 'adrak2' },
+                       'obj-2':  { id: 2, label: 'lasson3' },
+                       'obj-3': { id: 3, label: 'lemboo4' },
+                       'obj-4': { id: 4, label: 'mirchi5' },
+                    }
+                }
+            }
+        })
+            .mount('#shopping-main');
+    </script>
+
+
+
+
+
+
+
