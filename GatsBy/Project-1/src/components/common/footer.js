@@ -2,6 +2,8 @@ import React from 'react'
 import {Link}  from 'gatsby'
 import { FiPhone} from "react-icons/fi";
 import { FaEnvelope} from "react-icons/fa";
+import { AiFillMediumSquare } from "react-icons/ai";
+
 
 
 
@@ -57,6 +59,9 @@ const Footer = () => {
                             <ul>
                                 <li><a href="tel:0300-9269560"> <span><FiPhone /></span> +92 300 926-9560 </a></li>
                                 <li><a href="mailto:ahsan_wins@outlook.com"> <span><FaEnvelope /></span> ahsan_wins@outlook.com </a></li>
+                                <li><a href="https://ahsan2001.medium.com/">  <span> <AiFillMediumSquare/> Follow Medium </span>  </a></li>
+                       
+                       
                             </ul>
                         </div>
                     </div>
