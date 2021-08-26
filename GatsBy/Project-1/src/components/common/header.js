@@ -2,6 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FiPhone} from "react-icons/fi";
 import { FaEnvelope ,  FaFacebook} from "react-icons/fa";
+import { GoMarkGithub } from "react-icons/go";
+// import { AiFillMediumSquare } from "react-icons/ai";
+
+
+
+
+
 
 
 
@@ -31,8 +38,11 @@ const Navbar = () => {
 
                     <div className="col-md-3">
                          <div className="Website-right">
-                            <a href="https://www.facebook.com/">  <span> <FaFacebook/>  </span>&nbsp;  </a>
-                            <a href="mailto:ahsan_wins@outlook.com"> <span><FaEnvelope />  </span> </a> 
+                            <a href="https://github.com/Ahsan2001">  <span> <GoMarkGithub/> &nbsp; </span> </a>
+                            <a href="https://www.facebook.com/ahsan.shaikh.5602/">  <span> <FaFacebook/>  </span> </a>
+                            {/* <a href="mailto:ahsan_wins@outlook.com"> <span><FaEnvelope />  </span>&nbsp; </a>  */}
+                            {/* <a href="https://ahsan2001.medium.com/">  <span> <AiFillMediumSquare/>  </span>  </a> */}
+
                         </div>
                     </div>
 
