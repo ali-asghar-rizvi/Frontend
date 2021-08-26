@@ -53,24 +53,44 @@ a{
 header{
     background: #022144;
 }
-
-
-.Website-Header h2{
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin: auto;
-    padding: 2.4rem 0 1rem;
-    font-size: 4.6rem;
+.Website-left a {
+    color: #d6d6d6;
+    font-size: 2.4rem;
+    margin: 4rem 0;
 }
+.Website-right a:hover,.Website-left a:hover { 
+    color: #fff;
+}
+
+.Website-right a {
+    color: #d6d6d6;
+    font-size: 2.6rem;
+    margin: 3.6rem 0 4rem;
+}
+
+
+.Website-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.Website-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 
 
 ul.Website-Navbar {
     display: flex;
     /* margin-top: 2.5rem; */
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin : 4rem 0;
+    margin: 4.2rem 0 4rem;
 }
 ul.Website-Navbar  li{
     padding: 0 1rem ;
@@ -343,41 +363,38 @@ h1.what-we-do{
 /* Home PAge Banner Start  */
 
 .Home-Banner-Content{
-    padding: 20rem 0;
+    padding: 25rem 0 18rem;
 }
 .Home-Banner{
     text-align: center;
 }
-.Home-Banner h1,
-.Home-Banner h2{
+.Home-Banner h1{
     padding: 10px 0;
     color: #fff;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 5rem;
 }
+.Home-Banner h2{
+    padding: 20px 0 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+.Home-Down-Arrow span {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 7rem;}
+
+    .Home-Down-Arrow{
+        margin-top: 5rem;
+    }
+
+    .Home-Down-Arrow span:hover {
+        cursor: pointer;
+    }
 
 section.Home-Banner{
-    background: url(../images/Web-Banner-1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-
-}
-
-
-
-section.Home-Banner-2{
-    background: url(../images/Web-Banner-3.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-}
-
-section.Home-Banner-3{
     background: url(../images/Web-Banner.jpg);
     background-position: center;
     background-size: cover;
@@ -387,8 +404,12 @@ section.Home-Banner-3{
 
 }
 
+
+
+
 .banner-buttons-main {
     transition: 0.5s;
+    margin-top: 2rem;
 }
 
 .banner-buttons-main a {
@@ -583,7 +604,25 @@ section.contact {
 
 
 
-      
+    /* about my self component start    */
 
+
+.about-myself{
+    text-align: center;
+    padding: 6rem 0 ;
+}
+.about-myself h1{
+
+    color: #022144;
+    padding: 1rem 0;
+    font-size: 5rem;
+
+}
      
-    
+.about-myself p{
+
+    color: #434343;
+    font-size: 2.2rem;
+
+}
+     
