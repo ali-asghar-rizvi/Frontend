@@ -1,1 +1,27 @@
+<html>
+  <body>
+   <h4 onmouseover="PlaySound('mySound')"  onmouseout="StopSound('mySound')">Hover me to play some music </h4>
+  </body>
+</html>
 
+
+
+
+
+<script>
+
+// sound effect script 
+
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+
+  
+</script>
