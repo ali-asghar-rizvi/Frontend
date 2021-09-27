@@ -1,0 +1,650 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+li,
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
+}
+
+
+.Mobile-Header{
+    display: none;
+}
+
+/* scroll bar  */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #112d4d
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #112d4d
+  }
+
+
+
+
+
+/* header Styling  Start */
+header{
+    background: #022144;
+}
+.Website-left a {
+    color: #d6d6d6;
+    font-size: 2.4rem;
+    margin: 4rem 0;
+}
+.Website-right a:hover,.Website-left a:hover { 
+    color: #fff;
+}
+
+.Website-right a {
+    color: #d6d6d6;
+    font-size: 2.6rem;
+    margin: 3.6rem 0 4rem;
+}
+
+
+.Website-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.Website-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+ul.Website-Navbar {
+    display: flex;
+    /* margin-top: 2.5rem; */
+    justify-content: center;
+    align-items: center;
+    margin: 4.2rem 0 4rem;
+}
+ul.Website-Navbar  li{
+    padding: 0 1rem ;
+    font-size: 2rem;
+}
+ul.Website-Navbar li a{
+    color: rgba(245, 245, 245, 0.847);
+}
+ul.Website-Navbar li {
+    padding-bottom: 5px;
+    transition: 0.5s;
+    border-bottom: 2px transparent;
+}
+ul.Website-Navbar li a:hover,
+.active-page{
+    color: #fff !important;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+   
+}
+/* header Styling Stop */
+
+
+
+
+
+/* Footer Styling Start  */
+
+footer{
+    background: #022144;
+}
+
+
+.footer-content{
+    padding: 50px 0;
+}
+
+.footer-content h2{
+    line-height: 4rem;
+    margin: 1rem 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+.footer-content ul li a {
+    color: rgba(255, 255, 255, 0.568) !important;
+    transition: 0.5s;
+}
+
+.footer-content ul{
+    padding-left: 0 ;
+}
+
+.footer-content ul li {
+    color: rgba(255, 255, 255, 0.568);
+    font-weight: 400;
+    padding-top: 0.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer-content ul li:hover{
+    color: #fff;
+}
+
+.footer-content ul li a:hover{
+    color: #fff !important;
+}
+.copyright {
+    padding: 2rem 0;
+}
+
+.copyright h6{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
+/* Footer Styling Close  */
+
+
+
+
+/* blog section start */
+
+.blogs {
+    text-align: center;
+    padding: 50px 0 100px;
+    background: #ffffff;
+}
+.blog-content {
+    background: #070304;
+    margin: 2rem 1rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+}
+
+.blog-content h2{
+    padding: 1rem 0;
+}
+
+.blogs h1{
+    font-size: 42px;
+    color: #022144;
+    font-weight: bold;
+
+}
+a.read-more-btn  {
+    color: #022144 !important;
+    font-size: 1.5rem;
+    background: #fff;
+    padding: 0.6rem;
+    margin: 1rem 1rem 4rem;
+    display: block;
+    width: 35%;
+    border: 1px solid #022144;
+    transition: 0.5s;
+}
+a.read-more-btn:hover{
+    font-weight: 700;
+    background: #022144;
+    color: #fff !important;
+    letter-spacing: 2px;
+}
+.blog-content h2 {
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: left;
+}
+
+.blogs i{
+    font-size: 50px;
+    color: #022144;
+    padding-top: 50px ;
+}
+.blogs h5{
+    font-size: 30px;
+    color: #022144;
+    font-weight: bold;
+    padding: 30px 0 20px 0;
+}
+.blogs p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+    padding: 0 1rem 1rem;
+}
+.blog-content img{
+    width: 100%;
+    height: 22rem;
+}
+
+h1.blog-heading{
+    text-align: center;
+    font-size: 8rem;
+    padding: 0rem 0 6rem;
+    color: #022144;
+}
+
+
+/* blog inner pages  START */
+.Blog-Inner-Pages{
+    padding: 0 0 10rem;
+}
+.Blog-Inner-Pages h2{
+    text-align: center;
+    color: #022144;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 5rem 0  3rem ;
+
+}
+.Blog-Inner-Pages p{
+    font-size: 2rem;
+    padding: 1.5rem 0 0;
+}
+
+.Blog-Inner-Pages img{
+    width: 100%;
+    height: 50rem;
+}
+.Blog-Inner-Pages a {
+    color: rgb(255, 255, 255) !important;
+    font-size: 2rem;
+    font-weight: 600;
+    background: #022144;
+    border: 1px solid;
+    line-height: 5rem;
+    padding: 5px 50px 9px;
+}
+
+.back-to-home{
+    margin: 2rem 0 0rem;
+}
+
+/* blog inner pages CLOSE  */
+
+/* blog section close */
+
+
+
+/* about section start */
+
+
+
+.about-us-main{
+    background: url(../images/about-us-main.webp) center center/cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+.about-us-main-content{
+    padding: 20rem 0 23rem;
+}
+
+.about-us-main-content h1{
+    color: #fff;
+    font-size: 5rem;
+    padding: 2rem 0;
+    line-height: 6rem;
+}
+
+.about-us-main-content h1 span{
+    color: #fff;
+    font-size: 3rem;
+    display: block;
+    padding: 0rem;
+    margin-bottom: 1rem;
+}
+
+
+h1.what-we-do{
+    text-align: center;
+    font-size: 8rem;
+    padding: 0rem 0 6rem;
+    color: #022144;
+}
+
+
+.about{
+    padding: 40px 0 50px 0;
+}
+
+.about-content h1{
+    color: #022144;
+    font-size: 40px;
+    font-family: Montserrat;
+
+}
+.about-content p{
+    color: #7A7A7A;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding: 20px 0;
+    font-weight: 300;
+
+}
+
+/* about section close */
+
+
+
+/* Home PAge Banner Start  */
+
+.Home-Banner-Content{
+    padding: 25rem 0 18rem;
+}
+.Home-Banner{
+    text-align: center;
+}
+.Home-Banner h1{
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 5rem;
+}
+.Home-Banner h2{
+    padding: 20px 0 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+.Home-Down-Arrow span {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 7rem;}
+
+    .Home-Down-Arrow{
+        margin-top: 5rem;
+    }
+
+    .Home-Down-Arrow span:hover {
+        cursor: pointer;
+    }
+
+section.Home-Banner{
+    background: url(../images/Web-Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+
+}
+
+
+
+
+.banner-buttons-main {
+    transition: 0.5s;
+    margin-top: 2rem;
+}
+
+.banner-buttons-main a {
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 50px;
+    background: linear-gradient(to left, #000000 50%, #022144 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .6s ease-out;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.banner-buttons-main a:hover{
+    color: #fff;
+    background-position: right bottom;
+  
+}
+
+
+
+
+/* // contact section in home page  */
+
+section.contact {
+    background: #ffffff;
+}
+
+
+.contact .contact-background-color {
+  padding: 50px 30px;
+}
+
+.contact .contact-content {
+  padding: 30px 70px 30px 0;
+}
+
+.contact .contact-content h4 {
+  text-align: left;
+  font-size: 25px;
+  padding-top: 40px;
+  letter-spacing: 5px;
+  color: #022144;
+  line-height: 40px;
+}
+
+.contact .contact-content h1 {
+  text-align: left;
+  padding: 15px 0;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #022144;
+}
+
+.contact .contact-content p {
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #022144;
+}
+
+.contact .contact-form {
+  
+  background: rgba(245, 245, 245, 0.847);
+  box-shadow: 0px 7px 6px #00000047;
+  border: 1px solid #434343;
+  border-radius: 35px;
+}
+
+.contact .contact-form form {
+  padding: 60px 12px 40px 12px;
+}
+
+.contact .contact-form input {
+  border: 1px solid #707070;
+  font-size: 1.7rem;
+  border-radius: 6px;
+  height: 50px;
+  margin-bottom: 18px;
+}
+
+.contact .contact-form textarea {
+  border: 1px solid #707070;
+  font-size: 1.7rem;
+  border-radius: 6px;
+  margin-bottom: 34px;
+}
+
+.contact .contact-form .send-btn button {
+  font-size: 16px;
+  background-color: #022144;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  padding: 7px 100px;
+}
+
+
+
+/* service page start  */
+
+.Service-Section{
+    background: url(../images/service-bg.jpg ) center center/cover no-repeat  ;
+    box-shadow:inset 0 0 0 3000px rgba(2, 33, 68, 0.593);
+    padding: 20rem;
+
+}
+
+.service-content{
+    text-align: center;
+
+}
+
+.service-content h6{
+    padding: 6rem 0 1rem ;
+    font-size: 4rem;
+    color: #ffffff;
+    
+}
+
+.service-content h1{
+    padding: 0 0rem  4rem;
+    font-size: 8rem;
+    color: #ffffff;
+    font-style: italic;
+}
+.service-section-cart{
+    margin-bottom: 15rem;
+    padding-bottom: 6rem;
+    padding-top: 13rem;
+}
+.service-section-cart h2{
+    padding: 3rem 0 2rem;
+    color: #022144;
+    font-size: 6rem;
+}
+
+.service-section-cart p{
+    padding: 0rem 0rem;
+    color: #022144;
+    font-size: 2.1rem;
+}
+
+.service-card{
+    background: #022144;
+    width: 90%;
+    margin-top: 4rem;
+    border-radius: 12px;
+    transition: 0.5s;
+    border: 3px solid;
+    color: #fff;
+    perspective: 1000px;
+}
+
+.service-card:hover,
+.active-card{
+    color:#022144;
+    border: 3px solid;
+    background: #fff;
+    cursor: pointer;
+
+}
+
+.service-card:hover span,
+.service-card.active-card span    {
+    color: #022144;
+}
+
+
+.service-card h4{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5rem 0rem 3rem 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 1px;
+}
+.service-card span {
+    font-size: 8rem;
+    color: #fff;
+    margin: 0 0 0 185px;}
+
+
+
+
+
+
+    /* about my self component start    */
+
+
+.about-myself{
+    text-align: center;
+    padding: 6rem 0 ;
+}
+.about-myself h2{
+    color: #022144;
+    padding: 1rem 0;
+    font-size: 5rem;
+
+}
+     
+.about-myself p{
+
+    color: #434343;
+    font-size: 2.2rem;
+
+}
+     
+
+
+
+/* home page service section start 
+
+
+*/
+
+
+h2.service-heading{
+    font-style: normal;
+    color: #022144;
+    font-weight: 600;
+    font-size: 5.6rem;
+}
+
+.service-section-cart.serive-home-section{
+    padding-top: 3rem;
+}
+
+.serive-home-section .service-card{
+    width: 100%;
+}
