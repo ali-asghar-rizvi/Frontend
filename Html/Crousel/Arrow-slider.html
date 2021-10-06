@@ -2,13 +2,49 @@
   <body>
 
 <style>
-.my-owl-nav {  margin-top: 60px;  text-align: center;}.my-owl-nav span i{  color: #D5577F;  /* background: #fff; */  font-size: 25px;  margin: 20px;}.my-owl-nav span:hover {  cursor: pointer;}
+  
+.my-owl-nav {  
+    margin-top: 60px;  
+    text-align: center;
+  }
+  
+.my-owl-nav span i{  
+    color: #D5577F; 
+    font-size: 25px;  
+    margin: 20px;
+  }
+.my-owl-nav span:hover {
+    cursor: pointer;
+  }
+  
 </style>
 
 
-  <div class="my-owl-nav1">                    <span class="my-next-button1">                        <i class="fa fa-arrow-left" aria-hidden="true"></i>                    </span>                    <span class="my-prev-button1">                        <i class="fa fa-arrow-right" aria-hidden="true"></i>                     </span>                </div>
+  <div class="my-owl-nav1">      
+    
+      <span class="my-next-button1">                        
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>                    
+      </span>  
+    
+      <span class="my-prev-button1">                        
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>                     
+      </span> 
+    
+  </div>
+    
 <script>
-var selector = $('team-carousel.owl-carousel');$('.my-next-button1').click(function() {  selector.trigger('next.owl.carousel');});$('.my-prev-button1').click(function() {  selector.trigger('prev.owl.carousel');});
+  
+var selector = $('team-carousel.owl-carousel');
+  
+  $('.my-next-button1').click(function() {  
+    selector.trigger('next.owl.carousel');
+  });
+  
+  $('.my-prev-button1').click(function() {  
+    selector.trigger('prev.owl.carousel');
+  });
+  
 </script>
+    
   </body>
-  </html>
+</html>
