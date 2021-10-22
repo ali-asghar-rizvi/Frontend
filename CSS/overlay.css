@@ -1,3 +1,7 @@
+.SERVICES_hover{
+    position: relative;
+}
+
 .SERVICES_hover:after {
     content: "";
     position: absolute;
