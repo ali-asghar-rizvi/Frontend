@@ -1,0 +1,100 @@
+/* html */
+/* ---------------------------- */
+/* ---------------------------- */
+
+<section class="video_section">
+    <div class="container-fluid p-0" >
+        <img src="images/banner-2.jpg" width="100%" height="600px">
+        <div class="play-btn"><a href="images/eyelashes-video.mp4" data-fancybox="gallery"><span></span></a></div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+
+
+
+
+
+.video_section{
+    position: relative;
+}
+
+.video_section .play-btn {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+    cursor: pointer;
+}
+
+.video_section .play-btn:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #1E1E1E;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video_section .play-btn:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: rgb(195, 195, 195);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.video_section .play-btn span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #000;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
