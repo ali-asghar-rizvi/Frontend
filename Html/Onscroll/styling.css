@@ -1,13 +1,13 @@
 
 .header {
     position: fixed;
-      z-index: 99999;
-      height: 100px;
-      top: 0;
+    z-index: 99999;
+    height: 100px;
+    top: 0;
     width: 100%; 
-      background: #0000001f;
-      padding: 20px 0px;
-      -webkit-transition: all ease-out .5s;
+    background: #0000001f;
+    padding: 20px 0px;
+    -webkit-transition: all ease-out .5s;
     -moz-transition: all ease-out .5s;
     -o-transition: all ease-out .5s;
     transition: all ease-out .5s;
