@@ -20,7 +20,7 @@
 </style>
 
 
-  <div class="my-owl-nav1">      
+  <div class="my-owl-nav">      
     
       <span class="my-next-button">                        
         <i class="fa fa-arrow-left" aria-hidden="true"></i>                    
@@ -37,11 +37,11 @@
 var selector = $('team-carousel.owl-carousel');
   
   $('.my-next-button').click(function() {  
-    selector.trigger('next.owl.carousel');
+    selector.trigger('prev.owl.carousel');
   });
   
   $('.my-prev-button').click(function() {  
-    selector.trigger('prev.owl.carousel');
+    selector.trigger('next.owl.carousel');
   });
   
 </script>
