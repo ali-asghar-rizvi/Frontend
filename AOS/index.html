@@ -1,3 +1,16 @@
+From what I'm seeing documented (and I am just finding out about this repository), you should be able to set an attribute on your element to control this.
+Whatever element you are trying to animate once, set the attribute " data-aos-once='true' ". 
+If you want ALL of your animated elements to only animate once, set your AOS.init({}) object with a property of "once: true".
+
+
+
+
+
+
+
+
+
+
 <!-- css link -->
 <!-- -------- -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -12,6 +25,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
-        duration: 1200,
-  })
+        duration: 1200, // depend your need
+        once: true  // depend your need
+   })
 </script>
