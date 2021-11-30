@@ -1,0 +1,97 @@
+user panel css 
+
+
+
+
+
+
+
+/*user-panel-page-css-start*/
+
+.user-panel-main {
+    /* padding: 60px 0; */
+    margin: 10rem 0 5rem;
+}
+
+.user-panel-form .form-control {
+    height: 45px;
+    font-size: 14px;
+}
+
+.user-panel-form button {
+    border-radius: 4px;
+    padding: 16px 24px;
+    background-color: #888888;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: 0.5s;
+}
+
+.user-panel-left {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.user-panel-links li a {
+    color: #272823;
+    border-radius: 4px;
+    padding: 16px 8px;
+    text-transform: uppercase;
+    border: 0;
+    display: block;
+    transition: 0.5s;
+}
+
+.user-panel-links li a:hover,
+.user-panel-links li a.active {
+    background-color: #fbad26;
+    color: #fff;
+}
+
+.user-panel-links li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.dashboard-desc a {
+    color: #BC1E2D;
+}
+
+.dashboard-desc p {
+    margin-bottom: 10px;
+}
+
+
+ul.user-panel-links li {
+    list-style: none;
+}
+.user-panel-form button:hover {
+    background: black;
+}
+
+form.user-panel-form h2 {
+
+text-align: left;
+
+font: normal normal normal 60px/50px Bebas Neue;
+
+letter-spacing: 0px;
+
+color: #fbad26;
+
+padding: 10px 0;
+
+opacity: 1;
+}
+
+
+form.user-panel-form label span {
+    color: red;
+}
+
+
+/* end userPanel Css */
+
+
