@@ -17,7 +17,6 @@ user panel css
     height: 45px;
     font-size: 14px;
 }
-
 .user-panel-form button {
     border-radius: 4px;
     padding: 16px 24px;
@@ -50,20 +49,15 @@ user panel css
     background-color: #fbad26;
     color: #fff;
 }
-
 .user-panel-links li:not(:last-child) {
     margin-bottom: 20px;
 }
-
 .dashboard-desc a {
     color: #BC1E2D;
 }
-
 .dashboard-desc p {
     margin-bottom: 10px;
 }
-
-
 ul.user-panel-links li {
     list-style: none;
 }
@@ -72,21 +66,13 @@ ul.user-panel-links li {
 }
 
 form.user-panel-form h2 {
-
-text-align: left;
-
-font: normal normal normal 60px/50px Bebas Neue;
-
-letter-spacing: 0px;
-
-color: #fbad26;
-
-padding: 10px 0;
-
-opacity: 1;
+    text-align: left;
+    font: normal normal normal 60px/50px Bebas Neue;
+    letter-spacing: 0px;
+    color: #fbad26;
+    padding: 10px 0;
+    opacity: 1;
 }
-
-
 form.user-panel-form label span {
     color: red;
 }
