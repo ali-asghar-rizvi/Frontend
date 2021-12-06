@@ -1,1 +1,2 @@
 
+https://cdn.ckeditor.com/
