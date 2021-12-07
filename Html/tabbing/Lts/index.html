@@ -118,3 +118,39 @@ display: block;
 <!--  CSS CLOSE-->
 
 
+
+
+
+
+
+
+
+
+
+<!-- JS  -->
+
+
+<script>
+
+
+	$('[data-tab]').on('click', function(e) {
+		$(this).addClass('active').siblings('[data-tab]').removeClass('active')
+		/* $(this).siblings('[data-content=' + $(this).data('tab') + ']').addClass('active').siblings('[data-content]').removeClass('active')
+		e.preventDefault() */
+
+		$(this).closest('.col-md-9').find('[data-content]').removeClass('active')
+		$(this).closest('.col-md-9').find('[data-content=' + $(this).data('tab') + ']').addClass('active')
+
+		/* $(this).addClass('active').siblings('[data-tab]').removeClass('active').siblings('[data-content=' + $(this).data('tab') + ']').addClass('active').siblings('[data-content]').removeClass('active') */
+	})
+</script>
+
+
+
+<!-- JS CLOSE  -->
+
+
+
+
+
+
