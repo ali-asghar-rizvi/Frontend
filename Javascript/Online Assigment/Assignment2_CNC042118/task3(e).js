@@ -1,0 +1,4 @@
+if (true){
+alert("True");
+}
+
