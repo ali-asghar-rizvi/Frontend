@@ -1,14 +1,10 @@
 
 section.second-wrap .enroll-now-btn button {
-    text-align: left;
-    font: normal normal 600 15px/23px Poppins;
-    letter-spacing: 0px;
+
     color: #FFFFFF;
     background: linear-gradient(to left,#020248 50%, #AD1115 50%);
     border-radius: 3px;
-    border: none;
     padding: 14px 30px;
-    margin: 40px 10px 0;
     background-size: 200% 100%;
     background-position: left bottom;
     transition: all .6s ease-out;
