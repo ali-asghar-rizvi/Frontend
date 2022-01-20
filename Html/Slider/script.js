@@ -2,7 +2,9 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-    smartSpeed: 2000,                  // if need only
+    animateIn: 'fadeIn', // add this if need only
+    animateOut: 'fadeOut', // and this if need only
+    smartSpeed: 2000,    // if need only
     responsive:{
         0:{
             items:1
