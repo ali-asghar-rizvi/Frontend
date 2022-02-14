@@ -17,6 +17,11 @@
     https://webexpertllc.com/
     https://www.paragonlogo.com/
     
+### Other Brands
+    https://logocottage.co.uk/
+    https://www.yourdesignspot.com/
+    https://www.octaanimations.com/
+    
 ### My own Develop Frontend Brands
     http://prograders.co.uk/
 
