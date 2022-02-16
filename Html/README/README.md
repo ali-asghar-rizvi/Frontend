@@ -19,6 +19,7 @@
     
 ### Other Brands
     https://logocottage.co.uk/
+    https://americanwritersgroup.com/
     https://www.yourdesignspot.com/
     https://www.octaanimations.com/
     
