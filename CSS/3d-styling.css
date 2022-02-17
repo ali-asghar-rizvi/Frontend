@@ -1,1 +1,12 @@
+.inner-div{
+
+
 transform: translateY(-50%) translateZ(60px) scale(.94);
+
+}
+
+
+.main-div{
+transform-style: preserve-3d;
+
+}
