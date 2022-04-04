@@ -9,3 +9,9 @@ $(function () {
     });
   });
 
+
+
+//     for smooth scroll 
+	window.scroll({
+		behavior: 'smooth'
+	});
