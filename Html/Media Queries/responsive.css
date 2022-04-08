@@ -32,3 +32,36 @@ Max
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) { }
+
+@media (max-width: 1200px) {  }
+
+@media (max-width: 992px) {  }
+
+@media (max-width: 768px)  {  }
+
+@media (max-width: 576px)  {  }
+
+
+
+
+
+
+
