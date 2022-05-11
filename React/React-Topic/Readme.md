@@ -34,8 +34,8 @@
 <br />
 
 
-
-
+<!-- for slider  -->
+https://keen-slider.io/docs
 
 
 <iframe width="1200" height="630"
