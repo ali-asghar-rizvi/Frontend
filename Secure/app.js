@@ -31,3 +31,17 @@ document.addEventListener('contextmenu', function(e) {
             return false;
         }
     }
+
+
+
+
+
+
+// disable copy paste cut 
+<body oncopy="return false" oncut="return false" onpaste="return false">
+
+
+
+
+
+
