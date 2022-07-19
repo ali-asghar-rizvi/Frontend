@@ -40,6 +40,8 @@ document.addEventListener('contextmenu', function(e) {
 // disable copy paste cut 
 <body oncopy="return false" oncut="return false" onpaste="return false">
 
+// For React 
+<body oncopy="return false;" oncut="return false;" onpaste="return false;" oncontextmenu="return false;">
 
 
 
