@@ -1,1 +1,15 @@
 
+
+    $("#calendar_content div").on("click", function () {
+        if ($(this).text()) {
+            let headerColor = $("#calendar_header").attr("style").split("; ")[0];
+            let unSelected = 'background-color: #FFFFFF; width: 68.5714px; height: 68.5714px; line-height: 68.5714px;'
+            let selected = `${headerColor}; width: 68.5714px; height: 68.5714px; line-height: 68.5714px;`;
+
+            $("#calendar_content div").removeClass("today");
+            $("#calendar_content div").attr("style", unSelected);
+
+            $(this).addClass("today");
+            $(this).attr("style", selected);
+        }
+    })
