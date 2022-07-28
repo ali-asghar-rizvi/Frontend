@@ -1,0 +1,4 @@
+installed project 
+then create main.scss in sass folder
+create file [_variable.scss]
+import in main.scss [@import `variable`] note without _

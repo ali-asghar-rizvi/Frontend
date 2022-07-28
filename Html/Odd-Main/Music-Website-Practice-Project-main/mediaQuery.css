@@ -1,0 +1,340 @@
+@media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+    line-height: 3px;
+  }
+
+  #navber {
+    line-height: 3px;
+    padding: 1px 2 px;
+  }
+  #navber ul a li {
+    padding: 1px 5px;
+    font-size: 5px;
+  }
+
+  #navber h1 {
+    padding: 1px 1px;
+    font-size: 3px;
+  }
+
+  .main-content {
+    padding-top: 10rem;
+  }
+  .main-content h3 {
+    font-size: 25px;
+  }
+  .main-content h1 {
+    font-size: 30px;
+  }
+  .main-content p {
+    font-size: 10px;
+    padding: 5px;
+    line-height: 15px;
+  }
+  #main-services h1 {
+    font-size: 35px;
+    margin-top: -45px;
+  }
+
+  #Services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Services .box1 {
+    width: 50%;
+    height: 55vh;
+    margin-left: 25%;
+  }
+
+  #Services .box1 h3 {
+    font-size: 17px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box1 p {
+    font-size: 15px;
+    padding: 20px 0px;
+    line-height: 15px;
+  }
+  #Services .box2 h3 {
+    font-size: 15px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box2 p {
+    font-size: 15px;
+    padding: 5px;
+    line-height: 15px;
+  }
+  #Services .box3 h3 {
+    font-size: 15px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box3 p {
+    font-size: 15px;
+    padding: 5px;
+    line-height: 15px;
+  }
+
+  #Services .box2 {
+    width: 50%;
+    height: 55vh;
+    margin-top: 5px;
+    margin-left: 25%;
+  }
+  #Services .box3 {
+    width: 50%;
+    margin-top: 5px;
+    height: 55vh;
+    margin-left: 25%;
+  }
+
+  #Booking h1 {
+    font-size: 35px;
+  }
+
+  .both {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    margin: 0 0;
+    height: 60vh;
+    width: 100vw;
+  }
+  .My-form {
+    height: 60vh;
+    width: 100vw;
+    padding: 50px;
+    margin: 0 0;
+  }
+  .My-form p {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  .My-form textarea {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .Subcribe {
+    background: url(./subcribe.jpg) center center/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #Subcribe-content p {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+
+  #Subcribe-content h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .one {
+    margin-left: 25px;
+  }
+  .two {
+    margin-left: 25px;
+  }
+  footer {
+    text-align: center;
+    word-spacing: 15;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #navber {
+    line-height: 3px;
+  }
+  #navber ul a li {
+    padding: 1px 5px;
+    font-size: 10px;
+  }
+
+  #navber h1 {
+    padding: 1px 1px;
+    font-size: 8px;
+  }
+
+  .main-content {
+    padding-top: 10rem;
+  }
+  .main-content h3 {
+    font-size: 25px;
+  }
+  .main-content h1 {
+    font-size: 30px;
+  }
+  .main-content p {
+    font-size: 10px;
+    padding: 5px;
+    line-height: 15px;
+  }
+  #main-services h1 {
+    font-size: 35px;
+    margin-top: -45px;
+  }
+
+  #Services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Services .box1 {
+    width: 50%;
+    height: 55vh;
+    margin-left: 25%;
+  }
+
+  #Services .box1 h3 {
+    font-size: 17px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box1 p {
+    font-size: 15px;
+    padding: 20px 0px;
+    line-height: 15px;
+  }
+  #Services .box2 h3 {
+    font-size: 15px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box2 p {
+    font-size: 15px;
+    padding: 5px;
+    line-height: 15px;
+  }
+  #Services .box3 h3 {
+    font-size: 15px;
+    padding: 1px 1px;
+    margin-top: 55px;
+  }
+
+  #Services .box3 p {
+    font-size: 15px;
+    padding: 5px;
+    line-height: 15px;
+  }
+
+  #Services .box2 {
+    width: 50%;
+    height: 55vh;
+    margin-top: 5px;
+    margin-left: 25%;
+  }
+  #Services .box3 {
+    width: 50%;
+    margin-top: 5px;
+    height: 55vh;
+    margin-left: 25%;
+  }
+
+  #Booking h1 {
+    font-size: 35px;
+  }
+
+  .both {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    margin: 0 0;
+    height: 60vh;
+    width: 100vw;
+  }
+  .My-form {
+    height: 60vh;
+    width: 100vw;
+    padding: 10px;
+    margin: 0 0;
+  }
+  .My-form p {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .My-form textarea {
+    margin-top: 1px;
+    font-size: 10px;
+  }
+
+  .Subcribe {
+    background: url(./subcribe.jpg) center center/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #Subcribe-content p {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+
+  #Subcribe-content h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .one {
+    margin-left: 25px;
+  }
+  .two {
+    margin-left: 25px;
+  }
+  footer {
+    text-align: center;
+    word-spacing: 15;
+  }
+}

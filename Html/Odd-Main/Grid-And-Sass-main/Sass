@@ -1,0 +1,14 @@
+install node.js
+open vscode
+open terminal ctrl + `
+check version npm -v 
+node -v
+npm init -y  (to install pakage.json)
+installing sass [npm install node-sass]
+then go to pakage.json
+change script
+sass: "node-sass -w scss / -o dist/css --recursive"
+create folder scss 
+create main.scss in scss folder
+then create dist folder
+

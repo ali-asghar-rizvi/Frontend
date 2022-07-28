@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  line-height: 1rem;
+  word-spacing: 4px;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
+.active {
+  border: 2px solid rgb(110, 57, 193);
+}
+.active:hover {
+  border: none;
+}
+#navber li:hover {
+  border: 2px solid rgb(110, 57, 193);
+}
+#navber {
+  background-color: rgb(0, 0, 0, 0.9);
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  padding-right: 2cm;
+}
+#navber h1 {
+  color: rgb(110, 57, 193);
+  font-family: "Dancing Script";
+  font-weight: bold;
+}
+#navber i {
+  color: rgb(71, 167, 231);
+}
+#navber a {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+#navber ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navber ul a li {
+  padding: 0.3rem 1rem;
+}
+#main-section {
+  background: url(./main.jpg) no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 30% 100%, 0 86%);
+}
+.main-content {
+  padding-top: 14rem;
+  padding-left: 3rem;
+}
+
+.main-content h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+  color: black;
+}
+.main-content h1 {
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+.main-content p {
+  color: white;
+}
+.main-content button {
+  margin-top: 30px;
+  width: 100px;
+  cursor: pointer;
+  height: 25px;
+  /* background-color: rgb(110,57,193); */
+  border: none;
+  background: linear-gradient(to right, rgb(110, 57, 193), rgb(71, 167, 231));
+  color: white;
+  font-family: "Dancing Script";
+}
+
+.main-content button:hover {
+  font-size: large;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* our service start  */
+#main-services h1 {
+  padding-top: 5rem;
+  font-size: 3rem;
+  color: rgb(204, 91, 204);
+  text-align: center;
+}
+
+#Services {
+  margin-top: 4rem;
+  display: flex;
+  text-align: center;
+}
+#Services .three-services {
+  flex: 1;
+  padding: 0 5px;
+  justify-content: space-between;
+}
+#Services .three-services h3 {
+  padding: 4rem 4rem;
+}
+
+.box1 {
+  background-color: rgb(204, 91, 204);
+  height: 40vh;
+  margin-left: 40px;
+  width: 33.3%;
+}
+
+.box1:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.box2:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.box3:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.box2 {
+  background-color: rgb(69, 161, 223);
+  height: 40vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 33.3%;
+}
+.box3 {
+  background-color: rgb(107, 19, 165);
+  height: 40vh;
+  margin-right: 40px;
+  width: 33.3%;
+}
+
+/* booking section start  */
+
+.both {
+  display: flex;
+}
+
+#Booking h1 {
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  color: black;
+  font-size: 3rem;
+}
+#Booking h2 {
+  margin: 2rem 0;
+}
+
+.My-form {
+  height: 70vh;
+  width: 40%;
+  color: white;
+  margin-left: 2rem;
+  padding: 6rem;
+  background-color: rgb(107, 19, 165);
+}
+
+.My-form button {
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  /* background-color: rgb(69, 161, 223); */
+  outline: none;
+}
+.My-form input {
+  border: none;
+  outline: none;
+}
+.My-form textarea {
+  border: none;
+  outline: none;
+}
+iframe {
+  margin-left: 3rem;
+  width:600; height:450;
+  margin-right: 3rem;
+  flex: 2;
+}
+/* subcribe start  */
+
+.Subcribe{
+  background: url(./subcribe.jpg) center center/cover no-repeat ;
+  width: 100%;
+  margin-top: 3rem;
+  height: 70vh;
+  opacity: 0.9;
+}
+
+#Subcribe-content h1{
+  font-size: 4rem;
+  margin-left: 3rem;
+  padding-top: 10rem;
+  color: white;
+  font-weight: bolder;
+}
+#Subcribe-content p {
+  word-spacing: 5;
+ color: white;
+ margin-left: 3rem;
+ font-weight: bold;
+ padding-top: 3rem;
+}
+  
+.one {
+
+  height: 40px;
+  background-color:   rgb(207, 34, 92);  
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  outline: none;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  color: white;
+
+}
+
+
+.one:hover{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color:   rgb(245, 245, 245);
+}
+.two{
+
+  height: 40px;
+  background-color:   rgb(245, 245, 245);  
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+
+}
+.two:hover{
+  background-color:   rgb(207, 34, 92);  
+  color: white;
+  cursor: pointer;
+
+
+}
+
+
+footer{
+
+background-color: rgb(62, 26, 121);
+text-align: center;
+font-weight: bolder;
+line-height: 2.2rem;
+color: white;
+margin-top: 2rem;
+}

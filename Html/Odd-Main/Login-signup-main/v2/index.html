@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <title>CREATE-ACCOUNT</title>
+</head>
+
+<body>
+  <main>
+    <section class="create-account">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1" style="background-color: #ffdb4d;">
+            <form>
+              <h1>Create Account</h1>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="username">Username <span>*</span></label>
+                  <input type="text" class="form-control" required id="username" placeholder="Enter Username Name" />
+                </div>
+
+            
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="email">Email Address <span>*</span></label>
+                  <input type="text" class="form-control" required id="email" placeholder="Enter Email Address" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="password">Password <span>*</span></label>
+                  <input type="password" class="form-control" required id="password" placeholder="Enter Password" />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="confirmPassword">Confirm Password <span>*</span></label>
+                  <input type="password" class="form-control" required id="confirmPassword"
+                    placeholder="Enter Confirm Password" />
+                </div>
+
+
+                <div class="col-md-6">
+                  <button  onclick="creatingAccount()">Create Account</button>
+                </div>
+
+
+              </div>
+            </form>
+          </div>
+
+
+
+    <div class="col-md-6 order-1 order-md-2">
+      <div class="inner-content-detail">
+        <h2> Already have an account <span>!</span>
+          <br />
+          <a href="./login.html" target="_blank">Click Here</a> To Login.
+        </h2>
+      </div>
+    </div>
+
+
+
+
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
