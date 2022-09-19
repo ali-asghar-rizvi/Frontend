@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+background-color: #F4D03F;
+color: #095f55;
+background-image: linear-gradient(90deg, #F4D03F 0%, #23dfb9 50%, #c2c1c1 100%);
+}
+
+header{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.todoDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1deec4;
+    padding: 20px;
+    margin: 0.5rem;
+    font-size: 20px;
+    transition: all  1s ease ;
+}
+.todo-list{
+    max-width: 40%;
+    margin: auto;
+    list-style: none;
+}
+.todoLi{
+    flex: 2;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.fall{
+    transform: translateY(6rem) rotateZ(20deg);
+}
+
+.todo-input,
+.todo-submit{
+    font-size: 25px;
+    padding: 10px ;
+    margin-top: 1.5rem;
+}
+.completeButton,
+.trashButton{
+    font-size: 20px;
+    padding: 0.5rem 10px;
+    cursor: pointer;
+}
+.todoLi{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 300px)  {
+    .todo-input,
+.todo-submit{
+    font-size: 10px;
+    padding: 5px ;
+    margin-top: 1rem;
+}
+
+.completeButton,
+.trashButton{
+    font-size: 10px;
+    padding: 0.3rem 5px;
+    cursor: pointer;
+}
+.todoLi{
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+    width: 300px;
+    font-weight: bolder;
+}
+  }
