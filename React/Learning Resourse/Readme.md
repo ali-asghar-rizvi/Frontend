@@ -16,6 +16,6 @@ https://docs.google.com/presentation/d/1D44MyYxJls_-voXOCGKwYr6rCGdE1yYfzeXh5K33
 https://docs.google.com/presentation/d/1AYPOmQ-5PgoCnasjZ3qMo_LCHp2jo0kxFlLHnP2dkaA/edit#slide=id.g946dbafdc4_0_609
     
     
-    ## Daveceddia Article
+## Daveceddia Article
     https://daveceddia.com/react-getting-started-tutorial/
     
