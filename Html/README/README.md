@@ -30,8 +30,12 @@
     https://www.onlinebookwriters.com/
     https://www.perfecent.com/
     https://ghostbookwriters.co.uk/
-    
-    
+    https://dev-portfolio-template.netlify.app/
+    https://www.waka.pt/pt/
+    https://gojilabs.com/
+    https://www.ruckusmarketing.com/
+    https://www.moontek.io/
+
     
     
     
