@@ -9,7 +9,7 @@ import PaymentInformation from "./paymentInformation"
 const PaymentProcess = () => {
 
   
-  const [tabIndex, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState(1);
   
   let Next = () => {
     console.log("Next", tabIndex);
